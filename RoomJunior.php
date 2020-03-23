@@ -1,6 +1,6 @@
 <?php
 
-class RoomStarter
+class RoomJunior
 {
     public $width;
     public $length;

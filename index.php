@@ -2,7 +2,7 @@
 
 require_once 'RoomStarter.php';
 
-$room = new RoomStarter();
+$room = new RoomJunior();
 
 $room->width  = 5;
 $room->length = 5;
