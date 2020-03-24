@@ -1,11 +1,55 @@
 <?php
 
-class RoomJunior
+class RoomJuniorBetter
 {
-    public $width;
-    public $length;
-    public $height;
-    public $wallColor;
+    private $width;
+    private $length;
+    private $height;
+    private $wallColor;
+
+    public function getWidth()
+    {
+        return $this->width;
+    }
+
+    public function setWidth($width)
+    {
+        $this->width = $width;
+        return $this;
+    }
+
+    public function getLength()
+    {
+        return $this->length;
+    }
+
+    public function setLength($length)
+    {
+        $this->length = $length;
+        return $this;
+    }
+
+    public function getHeight()
+    {
+        return $this->height;
+    }
+
+    public function setHeight($height)
+    {
+        $this->height = $height;
+        return $this;
+    }
+
+    public function getWallColor()
+    {
+        return $this->wallColor;
+    }
+
+    public function setWallColor($wallColor)
+    {
+        $this->wallColor = $wallColor;
+        return $this;
+    }
 
     public function open()
     {
